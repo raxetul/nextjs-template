@@ -1,10 +1,9 @@
+import RegisterForm from '@/components/auth/register-form'
 import React from 'react'
 
-type Props = {}
-
-function RegisterPage() {
+function RegisterPage () {
   return (
-    <div>Register Page</div>
+    <RegisterForm/>
   )
 }
 
